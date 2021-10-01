@@ -1,0 +1,215 @@
+*{
+    margin:0% ;
+    padding: 0%;
+}
+
+.items2{
+    display: inline;
+    font-size: 24px;
+    margin: 0.8rem;
+    cursor: pointer;
+    color: blue;
+    padding-left: 30px;
+
+}
+.header1{
+    background: url("https://skit.org.in/assets/images/slider12.jpg") no-repeat;
+    width: 100%;
+    height: 60vh;
+    background-size: 100% 100%;
+}
+
+
+.about_image{
+    margin-left: 25px;
+    display: flex;
+    gap: 3.8%;
+    margin-right: 2%; 
+    height: 55vh;
+    
+ }
+.about_image img{
+    height: 35vh;
+}
+.about1{
+    font-size: 35px;
+    line-height: 1.5;
+    color: coral;
+    text-align: center;
+
+}
+.about_items1{
+    display: block;
+    gap: 2%;
+    
+}
+.about_items{
+    font-size: 25px;
+    line-height: 40px;
+
+}
+
+.cse_image1{
+    padding-top: 3%;
+    height: 35vh;
+    margin-left: 35%;
+    
+
+}
+.department_header{
+    background-color: darkgreen;
+    color: whitesmoke;
+    text-align: center;
+}
+.cse_header{
+    padding-top: 2%;
+    font-size: 30px;
+    text-align: center;
+    color: chocolate;
+}
+.cse_items{
+    display: flex;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 3%;
+}
+.ise_header{
+    padding-top: 2%;
+    font-size: 30px;
+    text-align: center;
+    color: chocolate;
+}
+.ise_image1{
+    padding-top: 3%;
+    height: 35vh;
+    margin-left: 38%;
+}
+.image_ise{
+    background-color: silver;
+}
+.image_cse{
+    background-color: silver;
+}
+.ise_items{
+    display: flex;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 3%;
+}
+.mech_header{
+    padding-top: 2%;
+    font-size: 30px;
+    text-align: center;
+    color: chocolate;
+}
+.image_mech{
+    background-color: silver;
+}
+.mech_image1{
+    padding-top: 3%;
+    height: 35vh;
+    margin-left: 38%;
+}
+.mech_items{
+    display: flex;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 3%;
+}
+.civ_header{
+    padding-top: 2%;
+    font-size: 30px;
+    text-align: center;
+    color: chocolate;
+}
+.civ_image1{
+    padding-top: 3%;
+    height: 35vh;
+    margin-left: 38%;
+}
+.image_civ{
+    background-color: silver;
+}
+.civ_items{
+    display: flex;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 3%;
+}
+.gallery{
+    font-size: 35px;
+    line-height: 1.5;
+    color: coral;
+    text-align: center;
+
+}
+.contact_us{
+    font-size: 35px;
+    line-height: 1.5;
+    color: coral;
+    text-align: center;
+}
+.map1{
+     margin-left: 4%; 
+}
+.contact_us1{
+    display: flex;
+}
+.details{
+    padding-left: 30px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+.events_header{
+    background-color: red;
+    line-height: 2cm;
+    font-size: 30px;
+}
+.events_header :hover{
+    color: silver
+    
+}
+.workshop{
+    text-align: center;
+    color: coral;
+    font-size: 30px;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+.workshop1img{
+    height: 55vh;
+}
+.workshop1{
+    display: flex;
+}
+.workshop1_1{
+    padding-left: 10px;
+    font-size: 25px;
+    line-height: 40px;
+}
+.cultural{
+    text-align: center;
+    color: coral;
+    font-size: 30px;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+.image_culture{
+    height: 55vh;
+}
+.culture_image{
+    display: flex;
+    float: left;
+}
+.culture_item{
+    padding-left: 10px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+@media screen and (min-width:1024px){
+    .about_items1{
+        display: flex;
+    }
+    
+}
